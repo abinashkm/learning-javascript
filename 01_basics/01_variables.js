@@ -25,8 +25,8 @@ console.table([accountId,accountEmail,password,accountCity, abinash]);
 /*
 Here the question arises that why use let,var, none when they do the same thing,
 The reason behind this is that: var cant take scope properly.
-now what is this scope, Scope == {} this curly brackets are scopes{block scopes and functional scopes}. when we put 
-lets suppose for loop and mistakenly run it for accountId than this will change the value of each and every var that is of same name.
+now what is this scope, Scope == {} this curly brackets are scopes{block scopes and functional scopes}.
+lets suppose for loop is used and we mistakenly run it for accountId than this will change the value of each and every var that is of same name.
 
 now to tackle this "let" was introduced. 
 
