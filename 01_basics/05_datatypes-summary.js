@@ -31,7 +31,7 @@ console.log(id === anotherId); // false: it does not matter if the value is same
 
 const heros = ["shaktiman", "naagraj", "doga"]; //arrays
 let myObj = {
-    name: "hitesh",
+    name: "abinash",
     age: 22,
 } // object
 
@@ -46,6 +46,12 @@ console.log(typeof anotherId);
 
 
 
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+
+/** STACK(primitive)   HEAP(non-primitive)
+ *  stack me hame ek copy milti he original value ki so changes usme hote h.
+ *  heap me hame refernce milte h jo ki directly change krta h value ko.
+*/
 
 
