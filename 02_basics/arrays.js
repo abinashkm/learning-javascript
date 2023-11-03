@@ -51,5 +51,5 @@ console.log("C ", myArr);
 console.log(myn2);
 
 /********* interview ask- differentiate btw slice and splice
- *  the main difference is that in slice we get the output but there is changes to main array but in splice we get output from range to range and also the main array changes as it exclude the splice one.
+ *  the main difference is that in slice we get the output but there is no changes to main array but in splice we get output from range to range and also the main array changes as it exclude the splice one.
  */
