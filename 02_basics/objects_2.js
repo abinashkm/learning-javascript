@@ -48,3 +48,30 @@ console.log(Object.keys(universe)); // to read the keys
 console.log(Object.values(universe)); // to get values from an object.
 console.log(Object.entries(universe)) // to get key value pairs in an array.
 console.log(universe.hasOwnProperty('world')); // to check if the required key exists or not.
+
+
+
+// object destructure
+
+const person = {
+    name: 'abinash',
+    age: 23,
+    dob: 2000,
+    city: "delhi"
+}
+const {dob: personal} = person 
+console.log(personal);
+
+//** This is how u destructure the object. */
+{
+    // this is json format and used for API.
+    // now here key as well as value are stored in sting format.
+    // "key": "value"
+}
+
+// now API can also be in Array format. 
+[
+    // inside here there can be objects
+]
+
+
